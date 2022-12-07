@@ -41,6 +41,14 @@
             "type": "dart",
             "program": "bin/puzzles.dart",
             "args": ["input.txt"]
+        },
+        {
+            "name": "day5",
+            "cwd": "2022/day/05/puzzles",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/puzzles.dart",
+            "args": ["input.txt"]
         }
     ]
 }
