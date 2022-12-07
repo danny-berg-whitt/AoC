@@ -6,4 +6,7 @@ void main() {
     await expectLater(
         duplicateItemsValue('input.txt.example'), completion(157));
   });
+  test('test groupBadgesValue', () async {
+    await expectLater(groupBadgesValue('input.txt.example'), completion(70));
+  });
 }
