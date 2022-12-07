@@ -32,7 +32,6 @@ Future<int> groupBadgesValue(String filename) async {
   var value = 0;
   final lines = readFile(filename);
   try {
-    var i = 0;
     List<List<int>> rucksacks = [];
     await for (var line in lines) {
       rucksacks.add(line.codeUnits);
