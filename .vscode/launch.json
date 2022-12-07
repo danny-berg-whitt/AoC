@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "day1.1",
+            "cwd": "2022/day/01/puzzles",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/puzzle1.dart",
+        },
+        {
+            "name": "day1.2",
+            "cwd": "2022/day/01/puzzles",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/puzzle2.dart",
+        },
+        {
+            "name": "day2",
+            "cwd": "2022/day/02/puzzles",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/puzzles.dart",
+            "args": ["input.txt"]
+        },
+        {
+            "name": "day3",
+            "cwd": "2022/day/03/puzzles",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/puzzles.dart",
+            "args": ["input.txt"]
+        }
+    ]
+}
